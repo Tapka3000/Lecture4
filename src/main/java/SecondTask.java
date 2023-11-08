@@ -21,7 +21,7 @@ public class SecondTask {
             } else if (quantity % 10 > 1 && quantity % 10 < 5 && !ending.contains(quantity)) {
                 System.out.println(name + " хранит " + quantity + " яблока");
             } else {
-                System.out.println(name + " хранит " + quantity + " яблоко");
+                System.out.println(name + " хранит " + quantity + " яблок");
             }
         } else {
             System.out.println("Введите число от 0 до 100");
